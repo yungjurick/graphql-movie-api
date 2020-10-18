@@ -1,0 +1,9 @@
+{
+  "name": "graphql-movie-api",
+  "version": "1.0.0",
+  "description": "GraphQL Movie API Project",
+  "main": "index.js",
+  "repository": "https://github.com/yungjurick/graphql-movie-api.git",
+  "author": "Yung Ju Rick Kim <yungjurick@gmail.com>",
+  "license": "MIT"
+}
