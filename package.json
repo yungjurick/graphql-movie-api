@@ -5,5 +5,18 @@
   "main": "index.js",
   "repository": "https://github.com/yungjurick/graphql-movie-api.git",
   "author": "Yung Ju Rick Kim <yungjurick@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.5"
+  },
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node"
+  }
 }
